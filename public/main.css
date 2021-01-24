@@ -37,13 +37,13 @@
 
 .posts {
   flex-basis: 60%;
+  color: rgb(26, 24, 24);
 }
 
-.posts .date,
+/* .posts .date,
 .posts .comment-count {
   color: gray;
-}
-
+} */
 /* Recent entries */
 
 .recent-entries {
@@ -66,5 +66,5 @@
 }
 
 body {
-  background-color:rgb(80, 106, 116);
+  background-color:rgb(223, 197, 158)
 }
