@@ -3,7 +3,7 @@ import footer from "../../data/footer"
 
 function Footer() {
   return (
-   <div className="footer">
+   <div id="footer" className="section">
      <p className="footer-info"> Author: {footer.author}</p>
      <p className="footer-info"> Copyright: {footer.copyright}</p>
 

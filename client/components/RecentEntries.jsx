@@ -3,7 +3,8 @@ import recentEntries from "../../data/recent-entries"
 
 function RecentEntries() {
   return (
-    <div>
+    <div id="RecentEntries" className="section">
+      <h2 className="sectionHeader" >Recent Entries</h2>
     {recentEntries.map((entry) => {
       return (
         <div>

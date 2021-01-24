@@ -3,7 +3,8 @@ import otherBlogs from "../../data/other-blogs"
 
 function OtherBlogs() {
   return (
-    <div>
+    <div id="OtherBlogs" className="section">
+      <h2 className="sectionHeader" >OtherBlogs</h2>
     {otherBlogs.map((blog) => {
       return (
         <div>

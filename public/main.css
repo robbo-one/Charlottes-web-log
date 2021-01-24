@@ -1,0 +1,45 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section {
+  border-style: solid;
+  padding: 10px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+#OtherBlogs {
+  background-color: violet;
+}
+
+#RecentEntries {
+  background-color: lightblue;
+}
+
+#Posts {
+  background-color: rgb(196, 166, 245);
+}
+
+#Header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgreen;
+  border-style: solid
+}
+
+.postTitle {
+  text-decoration: underline;
+}
