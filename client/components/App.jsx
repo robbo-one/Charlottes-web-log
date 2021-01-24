@@ -3,6 +3,7 @@ import React from 'react'
  import Footer from './Footer'
  import Posts from './Posts'
  import OtherBlogs from './OtherBlogs'
+ import RecentEntries from './RecentEntries'
  
 
  function App (props) {
@@ -12,6 +13,7 @@ import React from 'react'
     <div className="content">
     <OtherBlogs/>
     <Posts />
+    <RecentEntries />
     </div>
     <Footer/>
     </div>
