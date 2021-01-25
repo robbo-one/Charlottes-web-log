@@ -1,5 +1,5 @@
+// need to import React at the top of every .jsx file
 import React from 'react'
-
 
 const Footer = (props) => (
   <div className='container'>
@@ -7,4 +7,5 @@ const Footer = (props) => (
   </div>
 )
 
+// export this so you can import in App
 export default Footer
