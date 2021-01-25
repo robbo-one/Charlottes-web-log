@@ -19,7 +19,7 @@ const App = (props) => {
     <div>
       <Header title={headerData.title} link={headerData.link} />
       <div className='blogContent'>
-        <OtherBlogs blogs={otherBlogsData} /> 
+        <OtherBlogs blogs={otherBlogsData} />
         <Posts posts={postData} />
         <RecentEntries entries={recentEntriesData} />
       </div>
