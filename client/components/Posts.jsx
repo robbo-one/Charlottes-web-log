@@ -3,7 +3,7 @@ import Post from '../../data/posts'
 
 function Posts (props){
     return(
-        <div>
+        <div className="post">
             <h1>Posts</h1>
             <div>
                 {Post.map(aPost => {

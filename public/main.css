@@ -1,0 +1,22 @@
+.header {
+    background-color: chartreuse;
+}
+
+.content {
+    display: flex;
+}
+
+.post {
+    background-color: chocolate;
+}
+
+.footer {
+    background-color: cornflowerblue;
+}
+
+.otherBlogs {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+}
+
