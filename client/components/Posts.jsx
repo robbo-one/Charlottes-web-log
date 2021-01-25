@@ -11,11 +11,11 @@ function Posts() {
             <h2 className="postTitle">{post.title}</h2>
             <p>Date: {post.date}</p>
             <p>Comment count: {post.commentCount}</p>
-            <p>
+            <span>
               {post.paragraphs.map(sent => {
-                return <span className="sentence">{sent}</span>
+                return <p className="sentence">{sent}</p>
               })}
-            </p>
+            </span>
           </div>
         )
       })}
