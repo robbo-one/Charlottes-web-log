@@ -7,10 +7,8 @@ function RecentEntries() {
       <h2 className="sectionHeader" >Recent Entries</h2>
     {recentEntries.map((entry) => {
       return (
-        <div>
+        <div  key={entry.id}>
          <a href={entry.link}><h2>{entry.name}</h2></a> 
-          <p>ID: {entry.id}</p>
-
         </div>
       )
     })}

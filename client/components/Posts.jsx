@@ -7,14 +7,13 @@ function Posts() {
       <h2 className="sectionHeader">Posts</h2>
       {posts.map((post) => {
         return (
-          <div>
+          <div  key={post.id}>
             <h2 className="postTitle">{post.title}</h2>
-            <p>ID: {post.id}</p>
             <p>Date: {post.date}</p>
             <p>Comment count: {post.commentCount}</p>
             <p>
               {post.paragraphs.map(sent => {
-                return <p className="sentence">{sent}</p>
+                return <span className="sentence">{sent}</span>
               })}
             </p>
           </div>

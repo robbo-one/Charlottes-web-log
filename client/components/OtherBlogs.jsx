@@ -7,10 +7,8 @@ function OtherBlogs() {
       <h2 className="sectionHeader" >OtherBlogs</h2>
     {otherBlogs.map((blog) => {
       return (
-        <div>
+        <div key={blog.id}>
          <a href={blog.link}><h2>{blog.blogTitle}</h2></a> 
-          <p>ID: {blog.id}</p>
-
         </div>
       )
     })}
