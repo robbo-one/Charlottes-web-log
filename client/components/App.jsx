@@ -11,6 +11,7 @@ import postData from '../../data/posts.js'
 import headerData from '../../data/header.js'
 import footerData from '../../data/footer.js'
 import otherBlogData from '../../data/otherBlogs.js'
+import recentEntryData from '../../data/recentEntries.js'
 
 const App = () => (
   <div>
@@ -25,7 +26,8 @@ const App = () => (
         <Posts title='Posts' posts={postData}/>
       </div>
       <div className='recent-entries'>
-        <RecentEntries title='Recent Entries'/>
+        <RecentEntries title='Recent Entries' recentEntries={recentEntryData}/>
+  
       </div>
     </div>
     <div className='footer'>

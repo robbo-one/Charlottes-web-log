@@ -1,4 +1,5 @@
 import React from 'react'
+import Post from './Post'
 
 const Posts = (props) => {
   return (
@@ -6,31 +7,15 @@ const Posts = (props) => {
       <div>
         <h1>{props.title}</h1>
       </div>
-      <div>
-        <ul>
-          {props.posts.map(aPost => {
+      <ul>
+      {
+        props.posts.map(aPost => {
           return(
-          <li>
-            Title: 
-            {aPost.title}
-            <br></br>
-            Date: 
-            {aPost.date}
-            <br></br>
-            Comment Count:
-            {aPost.commentCount}
-            <br></br>
-            {aPost.paragraphs.map(aParagraph => {
-              return(
-                <p>
-                  {aParagraph}
-                </p>
-              )
-            })}
-          </li>)
-        })}
-        </ul>
-      </div>
+            <Post post={aPost}/>
+          )
+        })
+      }
+      </ul>
     </div>
   )
 }
