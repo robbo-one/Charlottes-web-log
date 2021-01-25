@@ -1,14 +1,18 @@
+
 import React from 'react'
 
-const Post = (props) => {
+function Post (props) {
+  const post = props.post
+  
   return (
-    <div className='footer-Wrapper'>
-      <span className='post-id'>{props.id}</span>
-      <span className='post-title'>{props.title}</span>
-      <span className='post-date'>{props.date}</span>
-      <span className='post-commentCount'>{props.commentCount}</span>
-      <span className='post-paragraphs'>{props.paragraphs}</span>
+    <div className="post">
+      <h2>{post.title}</h2>
+      <h2>{post.date}</h2>
+      <p>{post.paragraphs}</p>
+
+
     </div>
   )
 }
+
 export default Post
