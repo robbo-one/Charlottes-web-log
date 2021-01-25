@@ -17,18 +17,18 @@ import RecentEntries from './RecentEntries'
 // this is a component; an independant, reusable code block which divides 
 // the UI into smaller pieces
 const App = () => (
-  <div className='container'>
+  <>
   <Header title={header.title} link={header.link} />
-  <OtherBlogs blogs={otherBlogs}/>
+  <div class='flexBody'> <OtherBlogs blogs={otherBlogs}/>
   
   <Posts posts={posts}/>
 
   <RecentEntries entries={recent}/>
-   
+   </div>
   <Footer copyright={footer.copyright} author={footer.author} />
   {/* import from Footer.jsx the HTML for the 'footer.js datafile's copyright property' */}
   
-  </div>
+  </>
 )
 
 export default App

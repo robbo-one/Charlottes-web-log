@@ -2,7 +2,7 @@
 import React from 'react'
 
 const Footer = (props) => (
-  <div className='container'>
+  <div className='footer'>
   <h4>{props.copyright}{props.author}</h4>
   </div>
 )
