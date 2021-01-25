@@ -2,6 +2,7 @@ footer {
   font-family: monospace;
   font-size: 2rem;
   text-align: center;
+  margin: 2rem;
 }
 
 .post-container h1 {
@@ -13,6 +14,12 @@ footer {
 h2{
   text-align: center;
   font-size: 2rem;
+  text-decoration: none;
+}
+
+h3{
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -21,6 +28,7 @@ body {
 
 .body-container{
   display: flex;
+  justify-content: center;
 }
 
 .post{
@@ -38,6 +46,23 @@ body {
   flex-flow: column wrap;
   background-color: lavenderblush ;
   max-width: 60%;
+  margin: 0 2rem;
+}
+
+.other-blog-container{
+  display:flex;
+  flex-flow: column wrap;
+  background-color: ivory;
+  max-width: 60%;
+  padding: 1rem;
+}
+
+.recent-entry-container{
+  display:flex;
+  flex-flow: column wrap;
+  background-color: ivory;
+  max-width: 60%;
+  padding: 1rem;
 }
 
 .header {
