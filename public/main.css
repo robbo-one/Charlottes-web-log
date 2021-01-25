@@ -20,3 +20,8 @@
     background-color: purple;
 }
 
+.recentEntries {
+    display: flex;
+    flex-direction: column;
+    background-color: moccasin;
+}
