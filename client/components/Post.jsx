@@ -1,4 +1,6 @@
 import React from 'react'
+import hash from 'hash-string'
+
 
 export default function Post (props) {
   return (
@@ -7,7 +9,7 @@ export default function Post (props) {
       <h3>Date :{props.post.date}</h3>
       {props.post.paragraphs.map(paragraph => {
         return (
-          <p>{paragraph}</p>
+          <p key={hash(paragraph)}>{paragraph}</p>
         )
       })}
     </div>
