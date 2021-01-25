@@ -8,11 +8,13 @@ import Posts from './Posts.jsx'
 import RecentEntries from './RecentEntries.jsx'
 import RecentEntry from './RecentEntry.jsx'
 import postData from '../../data/posts'
+import headerData from '../../data/header.js'
+import footerData from '../../data/footer.js'
 
 const App = () => (
   <div>
     <div className='header'>
-      <Header title='Charlottes Web Blog'/>
+      <Header header={headerData}/>
     </div>
     <div className='body-container'>
       <div className='other-blogs'>
@@ -24,6 +26,9 @@ const App = () => (
       <div className='recent-entries'>
         <RecentEntries title='Recent Entries'/>
       </div>
+    </div>
+    <div className='footer'>
+      <Footer footer={footerData}/>
     </div>
   </div>
 )
