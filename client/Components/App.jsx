@@ -1,16 +1,18 @@
 import React from 'react'
 import Header from './Header' 
-// import Footer from './Footer'
+import Footer from './Footer'
 // import Posts from './Posts'
 
 import headerData from '../../data/header'
-// import footerData from '../../data/footer'
+import footerData from '../../data/footer'
 // import posts from '../../data/posts'
 
 const App = () => {
   return (
     <div className='container'>
       <Header name={headerData.title} link={headerData.link}/>
+      <Footer copyright={footerData.copyright} author={footerData.author}/>
+      
     
     </div>
   )
@@ -19,5 +21,4 @@ const App = () => {
 export default App
 
 
-  {/* <Posts posts={posts}/>
-      <Footer copyright={footerData.copyright} author={footerData.author}/> */}
+ 
