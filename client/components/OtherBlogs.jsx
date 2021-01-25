@@ -5,7 +5,7 @@ const OtherBlogs = props => (
   <div className='blogs'>
   {props.blogs.map(blog => {
   return (
-    <OtherBlog blog={blog}/>
+    <OtherBlog key={blog.id} blog={blog}/>
     )
    })
   }

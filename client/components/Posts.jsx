@@ -5,7 +5,7 @@ const Posts = props => (
   <div className='posts'>
   {props.posts.map(post => {
   return (
-    <Post post={post}/>
+    <Post key={post.id} post={post}/>
     )
    })
   }
