@@ -1,0 +1,54 @@
+footer {
+  font-family: monospace;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.post-container h1 {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+.body-container{
+  display: flex;
+}
+
+.post{
+  display: flex;
+  flex-flow: column wrap;
+  border: red;
+  border-width: 1rem;
+  background-color:seashell;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.post-container{
+  display:flex;
+  flex-flow: column wrap;
+  background-color: lavenderblush ;
+  max-width: 60%;
+}
+
+.header {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: darkslategray;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.header:hover{
+  color:red
+} 
