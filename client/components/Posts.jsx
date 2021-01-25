@@ -1,4 +1,5 @@
 import React from 'react'
+import hash from 'hash-string'
 import Post from '../../data/posts'
 
 function Posts (props){
@@ -14,7 +15,7 @@ function Posts (props){
                             {aPost.paragraphs.map(para =>{
                                 return (
                                     <div>
-                                        <p>{para}</p>
+                                        <p key={hash(para)}>{para}</p>
                                     </div>
                                 )
                             })}

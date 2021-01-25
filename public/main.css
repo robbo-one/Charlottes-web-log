@@ -8,6 +8,7 @@
 
 .post {
     background-color: chocolate;
+    max-width: 70%;
 }
 
 .footer {
@@ -16,12 +17,14 @@
 
 .otherBlogs {
     display: flex;
+    width: 20%;
     flex-direction: column;
     background-color: purple;
 }
 
 .recentEntries {
     display: flex;
+    width: 20%;
     flex-direction: column;
     background-color: moccasin;
 }
