@@ -15,8 +15,10 @@ const App = (props) => {
   return (
     <div>
       <Header title={headerData.title} link={headerData.link} />
-      <OtherBlogs blogs={otherBlogsData} /> 
-      <Posts posts={postData} />
+      <div className='blogContent'>
+        <OtherBlogs blogs={otherBlogsData} /> 
+        <Posts posts={postData} />
+      </div>
       <Footer copyright={footerData.copyright} author={footerData.author} />
     </div>
   )

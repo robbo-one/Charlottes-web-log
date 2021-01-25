@@ -6,7 +6,7 @@ const OtherBlogs = (props) => {
       
         {props.blogs.map(blog => {
           return (
-          <div>
+          <div className='otherBlogsContent button' >
             {/* <div>{blog.id}</div> */}
             <h2 className="postTitle" key={blog.id}><a href={blog.link}>{blog.blogTitle}</a></h2>
           </div>

@@ -6,7 +6,7 @@ const Posts = (props) => {
       
         {props.posts.map(post => {
           return (
-          <div>
+          <div className='padding'>
             {/* <div>{post.id}</div> */}
             <h2 className="postTitle" key={post.id}>{post.title}</h2>
             <div>{post.date}</div>
