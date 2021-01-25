@@ -7,9 +7,10 @@ import Post from './Post.jsx'
 import Posts from './Posts.jsx'
 import RecentEntries from './RecentEntries.jsx'
 import RecentEntry from './RecentEntry.jsx'
-import postData from '../../data/posts'
+import postData from '../../data/posts.js'
 import headerData from '../../data/header.js'
 import footerData from '../../data/footer.js'
+import otherBlogData from '../../data/otherBlogs.js'
 
 const App = () => (
   <div>
@@ -18,7 +19,7 @@ const App = () => (
     </div>
     <div className='body-container'>
       <div className='other-blogs'>
-        <OtherBlogs title='Other Blogs'/>
+        <OtherBlogs title='Other Blogs' otherBlogs={otherBlogData}/>
       </div>
       <div className='posts'>
         <Posts title='Posts' posts={postData}/>

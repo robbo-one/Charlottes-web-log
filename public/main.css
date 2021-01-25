@@ -72,3 +72,9 @@ body {
 .footer-list {
   list-style: none;
 }
+
+.border-line {
+  border: 0 none #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+}
